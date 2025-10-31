@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", Arial, sans-serif;
+}
+.booking-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 60px;
+  gap: 60px;
+  background: url("./header-sm-desktop.avif") no-repeat center/cover;
+  position: relative;
+  height: 352px;
+  width: 100%;
+}
+.booking-content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding: 40px 415px;
+}
+.booking-options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.align-icon {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+/* --- Booking Hotel Tabs --- */
+.booking-hotel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2px solid #ddd;
+}
+
+.booking-tabs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 175px;
+  padding: 10px 15px;
+  cursor: pointer;
+  gap: 10px;
+  transition: 0.3s ease;
+}
+.booking-one {
+  background-color: #e4007e;
+}
+.booking-two {
+  background-color: white;
+}
+
+.tab-icon {
+  font-size: 18px;
+  color: white;
+}
+
+.tab-button {
+  background: none;
+  border: none;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  font-weight: 500;
+}
+.btn-one {
+  background-color: #e4007e;
+}
+.icon-two {
+  color: #e4007e;
+}
+.btn-two {
+  color: #e4007e;
+}
+
+/* ----search bar--- */
+
+.search-bar {
+  background-color: #fff;
+  border-color: #ddd;
+  border-radius: 0 4px 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.29);
+  height: 56px;
+  width: 935px;
+  padding: 0px 36px 0px 0px;
+  margin-bottom: 10px;
+  justify-items: flex-end;
+}
+
+.search-icon {
+  font-size: 18px;
+  color: black;
+  margin: 0px 10px;
+}
+.search-input {
+  border: none;
+  font-size: 16px;
+}
+
+/* --- Booking Options --- */
+
+.option-item {
+  border: 1px solid #ddd;
+  background-color: #fff;
+}
+.option-item-one {
+  height: 54px;
+  width: 236px;
+}
+.option-item-two {
+  height: 54px;
+  width: 236px;
+}
+.option-item-three {
+  height: 54px;
+  width: 278px;
+}
+.option-item-four {
+  background-color: #5eb931;
+  height: 56px;
+  width: 187px;
+  padding: 6px 12px;
+}
+.option-icon {
+  font-size: 18px;
+  color: black;
+  margin: 0px 10px;
+}
+.option-button {
+  border: none;
+  background-color: white;
+  font-size: 16px;
+  color: #757575;
+}
+.option-icon {
+  font-size: 20px;
+  color: black;
+  margin: 0px 10px;
+}
+.search-button {
+  cursor: pointer;
+  font-family: Signika, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  text-align: center;
+  font-size: 1.2rem;
+  border: none;
+  color: white;
+  background-color: #5eb931;
+}
+.arrow-icon {
+  margin-left: 5px;
+  color: #fff;
+}
+.booking-info {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 260px;
+  color: #fff;
+}
+.map-link {
+  color: white;
+}

@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", Arial, sans-serif;
+}
+.featured-container {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  padding: 0 50px;
+  gap: 60px;
+  /* background-color: rgb(240, 116, 116); */
+  height: 500px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.featured-section {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 20px;
+  padding: 0px 415px;
+}
+.featured-title {
+  height: 36px;
+  width: 1140px;
+}
+.featured-card {
+  height: 312px;
+  width: 270px;
+}
+.card-header {
+  height: 152px;
+  width: 270px;
+  position: relative;
+  border-radius: 1px 1px 0 0;
+}
+
+.card-image {
+  height: 152px;
+  width: 270px;
+  border-radius: 5px 5px 0 0;
+}
+.card-rating {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 3px 10px;
+  font-size: 18px;
+  background-color: #e4007e;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 500;
+}
+.card-info {
+  height: 160px;
+  width: 270px;
+  padding: 16px 16px 14px;
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid;
+  border-right: 1px solid #595959;
+  border-bottom: 1px solid #595959;
+}
+.card-name {
+  font-size: 16px;
+  color: #292929;
+}
+.card-location {
+  font-size: 14px;
+  color: #292929;
+}
+.card-description {
+  margin-top: 4px;
+}
+.card-benefit {
+  font-size: 16px;
+  color: #595959;
+  margin-top: 12px;
+}
