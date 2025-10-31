@@ -2,6 +2,8 @@ import React from "react";
 import Booking from "./BookingSearchPanel/Booking";
 import HotelSection from "./HotelSection/HotelSection";
 import Featured from "./FeaturedSection/Featured";
+import PopularDestination from "./PopularDestination/PopularDestination";
+import PopularThemes from "./PopularThemes/PopularThemes";
 
 const Section = () => {
   return (
@@ -9,6 +11,8 @@ const Section = () => {
       <Booking />
       <HotelSection />
       <Featured />
+      <PopularDestination />
+      <PopularThemes />
     </div>
   );
 };
