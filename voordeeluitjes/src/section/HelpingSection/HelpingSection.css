@@ -1,0 +1,50 @@
+.helping-main-container {
+  width: 100%;
+  height: 144px;
+  background-color: #e4007e;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.helping-items-container {
+  width: 1170px;
+  height: 114px;
+  margin: 0 90.5px;
+  padding: 32px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.booking-helping-container {
+  width: 361.33px;
+  height: 32px;
+  font-size: 18px;
+}
+.both-question-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 5px;
+}
+.any-question {
+  height: 80px;
+  width: 361.33px;
+  display: flex;
+}
+.stuck-container {
+  width: 361.34px;
+  height: 61px;
+  display: flex;
+}
+.link-itm-container {
+  font-size: 16px;
+}
+.icon-item-container {
+  font-size: 28px;
+  flex-shrink: 0;
+}
+.link-customer-service {
+  color: white;
+  margin-left: 5px;
+}

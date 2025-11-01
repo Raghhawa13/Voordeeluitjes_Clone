@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", Arial, sans-serif;
+}
+.WhyChooseUs-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  color: #333;
+  background-color: #fff;
+}
+
+.WhyChooseUs-heading {
+  font-size: 28px;
+  text-align: center;
+  color: #e4007e;
+  margin-bottom: 40px;
+}
+
+.WhyChooseUs-content {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.WhyChooseUs-subheading {
+  font-size: 24px;
+  color: #292929;
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.WhyChooseUs-description {
+  line-height: 1.8;
+  font-size: 16px;
+  color: #292929;
+  position: relative;
+  overflow: hidden;
+}
+.WhyChooseUs-Shadow-bootam {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 40px;
+  background: linear-gradient(to bottom, transparent, #fff);
+  pointer-events: none;
+}
+
+.WhyChooseUs-link {
+  color: #e4007e;
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.WhyChooseUs-link:hover {
+  border-bottom: 1px solid #e4007e;
+}

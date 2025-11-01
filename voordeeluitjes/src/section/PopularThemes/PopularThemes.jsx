@@ -5,16 +5,16 @@ const PopularThemes = () => {
     <div>
       <div className="theams-container">
         <div className="theams-section">
-          <h2 className="theams-title">Theams Destinations</h2>
+          <h2 className="theams-title">Theam's Destinations</h2>
           {/* Section 1 */}
           <div className="theams-card">
             <div className="theams-image-wrapper">
               <img
-                src="./Nederland.jpg"
+                src="./couple.jpg"
                 alt="Theams destination"
                 className="theams-image"
               />
-              <div className="theams-city">Hotels Nederland</div>
+              <div className="theams-city">3=2 offers</div>
             </div>
 
             <div className="theams-image-wrapper">

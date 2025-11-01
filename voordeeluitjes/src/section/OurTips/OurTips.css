@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", Arial, sans-serif;
+}
+.OurTips-container {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  padding: 0 50px;
+  gap: 60px;
+  height: 490px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.OurTips-section {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 20px;
+  padding: 0px 415px;
+}
+.OurTips-scroll {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.OurTips-title {
+  height: 36px;
+  width: 1140px;
+}
+.OurTips-card {
+  height: 418px;
+  width: 366px;
+}
+.OurTips-card-header {
+  height: 208px;
+  width: 366px;
+  position: relative;
+  border-radius: 1px 1px 0 0;
+}
+
+.OurTips-card-image {
+  height: 208px;
+  width: 366px;
+  border-radius: 5px 5px 0 0;
+}
+.OurTips-card-rating {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 3px 10px;
+  font-size: 18px;
+  background-color: #e4007e;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 500;
+}
+.OurTips-card-info {
+  height: 209.33px;
+  width: 366px;
+  padding: 16px 16px 14px;
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid;
+  border-right: 1px solid #595959;
+  border-bottom: 1px solid #595959;
+}
+.OurTips-card-name {
+  font-size: 16px;
+  color: #292929;
+}
+.OurTips-card-location {
+  font-size: 14px;
+  color: #292929;
+}
+.OurTips-card-description {
+  margin-top: 4px;
+}
+.OurTips-card-benefit {
+  font-size: 16px;
+  color: #595959;
+  margin-top: 12px;
+}
