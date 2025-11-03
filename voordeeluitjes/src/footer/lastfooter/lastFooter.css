@@ -1,0 +1,124 @@
+.lastFooter-main-container {
+  width: 100%;
+  height: 295px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  color: #ffffff;
+  padding: 24px 0 40px;
+}
+.company-img {
+  width: 250pox;
+  height: 64px;
+  margin: 0 827.5px 16px;
+}
+.terms-privacy-conatiner {
+  width: 100%;
+  height: 20px;
+  display: flex;
+  /* flex-direction: row; */
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.terms-list-itm {
+  color: #292929;
+  text-decoration: none;
+}
+.terms-condition {
+  width: 215px;
+  height: 19px;
+}
+.terms-icon {
+  color: #595959;
+}
+.terms-privacy {
+  width: 53.25px;
+  height: 19px;
+}
+.terms-cookies {
+  width: 53.25px;
+  height: 20px;
+}
+.terms-sitemap {
+  width: 53.25px;
+  height: 19x;
+}
+.terms-cousomer-service {
+  width: 140.97px;
+  height: 19px;
+}
+.company-knows {
+  color: #292929;
+  margin: 40px 0 8px;
+  text-align: center;
+}
+.all-logo-list {
+  width: 1170px;
+  height: 64px;
+  margin: 0 367.5px;
+  /* padding: 0 15px; */
+}
+.last-companies-logos {
+  width: 1140px;
+  height: 128px;
+}
+.li-logoe {
+  width: 140px;
+  height: 64px;
+  display: inline-flex;
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  align-items: center;
+  padding: 0 10px;
+}
+.logo-avro {
+  width: 73px;
+  height: 44px;
+  background-position: 0 -28px;
+  background-image: url("./vulogosCompanes.avif");
+}
+.logo-kro {
+  background-image: url("./vulogosCompanes.avif");
+  background-position: -104px -108px;
+  width: 108px;
+  height: 18px;
+}
+.logo-max2 {
+  background-image: url("./vulogosCompanes.avif");
+  background-position: -73px -72px;
+  width: 108px;
+  height: 24px;
+}
+.logo-mikro {
+  background-image: url("./vulogosCompanes.avif");
+  background-position: 0 -132px;
+  width: 44px;
+  height: 44px;
+}
+.logo-ncrv {
+  background-image: url("./vulogosCompanes.avif");
+  background-position: -44px -132px;
+  width: 44px;
+  height: 44px;
+}
+.logo-npo {
+  background-image: url("./vulogosCompanes.avif");
+  background-position: 0 0;
+  width: 216px;
+  background-size: cover;
+  height: 16px;
+}
+.logo-televizier {
+  background-image: url("./vulogosCompanes.avif");
+  background-position: -132px -156px;
+  width: 73px;
+  height: 15px;
+}
+.logo-tros {
+  background-image: url("./vulogosCompanes.avif");
+  background-position: -73px -28px;
+  width: 71px;
+  height: 44px;
+}
