@@ -6,6 +6,7 @@ const HotelSection = () => {
     <div className="title-mainContainer">
       <div className="main-title-cards">
         <div className="title-card title-card-one">
+          <div className="title-card-Shadow"></div>
           <div className="titlecard-postion">
             <h3 className="title">Advantage weeks!</h3>
             <p className="description">
@@ -16,6 +17,7 @@ const HotelSection = () => {
           </div>
         </div>
         <div className=" title-card title-card-two">
+          <div className="title-card-Shadow"></div>
           <div className="titlecard-postion">
             <h3 className="title">Tastefully out and about: Wild & Wine</h3>
             <p className="description">
@@ -25,9 +27,7 @@ const HotelSection = () => {
           </div>
         </div>
         <div className=" title-card title-card-three">
-          {/* <div className="image-child">
-            <img src="./homepage_banner.avif" alt="logo" />
-          </div> */}
+          <div className="title-card-Shadow"></div>
           <div className="titlecard-postion">
             <h3 className="title">
               Spend the night among the Christmas lights

@@ -20,7 +20,7 @@
   align-items: start;
   justify-content: center;
   gap: 20px;
-  padding: 0px 415px;
+  width: 1140px;
 }
 .OurTips-scroll {
   display: flex;

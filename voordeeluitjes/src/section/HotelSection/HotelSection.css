@@ -45,6 +45,16 @@
     url("./image/Homepage_Header.jpeg") no-repeat center/cover;
   background-blend-mode: overlay;
 }
+.title-card-Shadow {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100px;
+  background: linear-gradient(to bottom, transparent, black);
+  pointer-events: none;
+  border-radius: 10px;
+}
 .title-card-two {
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
     url("./image/wildarrangementen.webp") no-repeat center/cover;
