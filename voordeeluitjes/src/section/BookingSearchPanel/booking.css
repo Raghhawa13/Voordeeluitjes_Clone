@@ -20,7 +20,8 @@
   flex-direction: column;
   align-items: start;
   justify-content: center;
-  padding: 40px 415px;
+  width: 892px;
+  height: 239px;
 }
 .booking-options {
   display: flex;

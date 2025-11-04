@@ -3,18 +3,19 @@
   height: 295px;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
+  justify-content: center;
   align-items: center;
   color: #ffffff;
   padding: 24px 0 40px;
 }
 .company-img {
-  width: 250pox;
+  width: 1140px;
   height: 64px;
-  margin: 0 827.5px 16px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 .terms-privacy-conatiner {
-  width: 100%;
   height: 20px;
   display: flex;
   /* flex-direction: row; */
@@ -53,16 +54,16 @@
   color: #292929;
   margin: 40px 0 8px;
   text-align: center;
+  font-size: 15px;
 }
+
 .all-logo-list {
   width: 1170px;
-  height: 64px;
-  margin: 0 367.5px;
-  /* padding: 0 15px; */
+  height: 60px;
 }
 .last-companies-logos {
   width: 1140px;
-  height: 128px;
+  height: 50px;
 }
 .li-logoe {
   width: 140px;
