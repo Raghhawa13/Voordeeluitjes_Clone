@@ -12,7 +12,7 @@ const WhyChooseUs = () => {
       <div className="WhyChooseUs-content">
         <div className="WhyChooseUs-section">
           <h3 className="WhyChooseUs-subheading">Best Hotel Deals</h3>
-          <p className="WhyChooseUs-description">
+          <div className="WhyChooseUs-description">
             You don't have to go far to get away from it all. Voordeeluitjes.nl
             offers over 1,300 charming hotels with great deals for a wonderful
             night, week, or weekend getaway. Besides hotels and holiday parks in
@@ -23,7 +23,7 @@ const WhyChooseUs = () => {
             also have last-minute hotel deals! Go on a journey of discovery and
             check out our Voordeeluitjes.nl blog for inspiration!
             <div className="WhyChooseUs-Shadow-bootam"></div>
-          </p>
+          </div>
         </div>
 
         <div className="WhyChooseUs-linkContainer">

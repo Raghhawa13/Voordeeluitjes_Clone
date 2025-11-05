@@ -3,11 +3,14 @@ import TopHeader from "./topHeader/TopHeader";
 import BottomHeader from "./bottomHeader/bottomHeader";
 import NavHeader from "./navHeaderbar/navHeader";
 
-const Header = () => {
+const Header = ({ HotelBtnSelect, SetHotelBtnSelected }) => {
   return (
     <div>
       <TopHeader />
-      <BottomHeader />
+      <BottomHeader
+        HotelBtnSelect={HotelBtnSelect}
+        SetHotelBtnSelected={SetHotelBtnSelected}
+      />
       <NavHeader />
     </div>
   );

@@ -8,17 +8,27 @@ import {
 import { FaSearch, FaArrowRight, FaRegCalendarAlt } from "react-icons/fa";
 import "./booking.css";
 
-const Booking = () => {
+const Booking = ({ HotelBtnSelect, SetHotelBtnSelected }) => {
   return (
     <div className="booking-container">
       <div className="booking-content">
         {/* --- Top Tabs (Hotels / Resorts) --- */}
         <div className="booking-hotel">
-          <div className="booking-tabs booking-one align-icon">
+          <div
+            className={`booking-tabs booking-one align-icon ${
+              HotelBtnSelect === "hotel" ? "active" : ""
+            }`}
+            onClick={() => SetHotelBtnSelected("hotel")}
+          >
             <FaHotel className="tab-icon icon-one" />
             <button className="tab-button btn-one ">Hotels</button>
           </div>
-          <div className="booking-tabs booking-two align-icon">
+          <div
+            className={`booking-tabs booking-two align-icon ${
+              HotelBtnSelect === "resort" ? "active" : ""
+            }`}
+            onClick={() => SetHotelBtnSelected("resort")}
+          >
             <MdOutlineMapsHomeWork className="tab-icon icon-two" />
             <button className="tab-button btn-two">Resorts</button>
           </div>
@@ -52,7 +62,20 @@ const Booking = () => {
           </div>
 
           <div className="option-item-four search-btn align-icon option-item">
-            <button className="search-button">Search hotels</button>
+            <button
+              className="search-button"
+              onClick={(e) => {
+                e.preventDefault();
+                alert(
+                  HotelBtnSelect === "hotel"
+                    ? "Searching Hotels"
+                    : "Searching Resorts"
+                );
+              }}
+            >
+              {HotelBtnSelect === "hotel" ? "Search Hotels" : "Search Resorts"}
+            </button>
+
             <FaArrowRight className="arrow-icon" />
           </div>
         </div>

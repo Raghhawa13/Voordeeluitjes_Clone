@@ -6,7 +6,7 @@ import { FaHotel } from "react-icons/fa6";
 import { MdOutlineMapsHomeWork } from "react-icons/md";
 import { PiLineVerticalLight } from "react-icons/pi";
 
-const BottomHeader = () => {
+const BottomHeader = ({ HotelBtnSelect, SetHotelBtnSelected }) => {
   return (
     <nav className="bottomContainer">
       {/* Left Section: Logo & Navigation */}
@@ -14,8 +14,19 @@ const BottomHeader = () => {
         <img src="/company.png" alt="Company Logo" className="logo" />
         <ul>
           <li>
-            <FaHotel className="logo-hotel" />
-            <a href="#" className="hotel">
+            <FaHotel
+              className={`logo-hotel ${
+                HotelBtnSelect === "hotel" ? "active" : ""
+              }`}
+            />
+            <a
+              href="#"
+              className={`hotel ${HotelBtnSelect === "hotel" ? "active" : ""}`}
+              onClick={(e) => {
+                e.preventDefault();
+                SetHotelBtnSelected("hotel");
+              }}
+            >
               Hotels
             </a>
           </li>
@@ -23,8 +34,19 @@ const BottomHeader = () => {
             <PiLineVerticalLight />
           </li>
           <li>
-            <MdOutlineMapsHomeWork />
-            <a href="#">Resort</a>
+            <MdOutlineMapsHomeWork
+              className={`${HotelBtnSelect === "resort" ? "active" : ""}`}
+            />
+            <a
+              href="#"
+              className={HotelBtnSelect === "resort" ? "active" : ""}
+              onClick={(e) => {
+                e.preventDefault();
+                SetHotelBtnSelected("resort");
+              }}
+            >
+              Resort
+            </a>
           </li>
         </ul>
       </div>

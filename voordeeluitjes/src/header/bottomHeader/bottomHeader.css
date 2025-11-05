@@ -5,6 +5,7 @@
   font-family: "Poppins", Arial, sans-serif;
 }
 
+/* -------- CONTAINER -------- */
 .bottomContainer {
   display: flex;
   justify-content: center;
@@ -42,28 +43,29 @@
   font-weight: 500;
 }
 
-.logo-details li a {
+/* Default (inactive) link & icon color */
+.logo-details li a,
+.logo-details li svg {
   text-decoration: none;
   color: #444;
-  transition: color 0.2s ease;
+  transition: color 0.3s ease;
 }
-.logo-details li a.hotel {
-  color: #e4007e;
-}
-.logo-details li a:hover {
+
+/* Hover effect */
+.logo-details li a:hover,
+.logo-details li svg:hover {
   color: #e4007e;
 }
 
-.logo-details li svg.logo-hotel {
+/* Active (selected by React) */
+.logo-details li a.active,
+.logo-details li svg.active {
   color: #e4007e;
 }
-.logo-details li svg {
-  font-size: 18px;
-  color: #444;
-}
 
+/* Vertical separator line */
 .logo-details li:nth-child(2) svg {
-  color: #bcbcbc; /* vertical line color */
+  color: #bcbcbc; /* line between icons */
 }
 
 /* -------- RIGHT SECTION -------- */
@@ -73,7 +75,7 @@
   gap: 25px;
 }
 
-/* Search input */
+/* --- Search input --- */
 .search-form {
   display: flex;
   align-items: center;
@@ -99,7 +101,7 @@
   cursor: pointer;
 }
 
-/* Favorites */
+/* --- Favorites --- */
 .favorites {
   display: flex;
   align-items: center;
@@ -119,7 +121,7 @@
   color: #e4007e;
 }
 
-/* Dropdown */
+/* --- Dropdown --- */
 #nav-location {
   border: none;
   border-radius: 5px;

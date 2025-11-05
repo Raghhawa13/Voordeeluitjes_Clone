@@ -39,7 +39,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 2px solid #ddd;
 }
 
 .booking-tabs {
@@ -53,13 +52,22 @@
   gap: 10px;
   transition: 0.3s ease;
 }
-.booking-one {
+
+.booking-tabs.active {
   background-color: #e4007e;
 }
-.booking-two {
-  background-color: white;
+.booking-tabs.active .tab-icon,
+.booking-tabs.active .tab-button {
+  color: #fff;
+}
+.booking-tabs:not(.active) {
+  background-color: #fff;
 }
 
+.booking-tabs:not(.active) .tab-icon,
+.booking-tabs:not(.active) .tab-button {
+  color: #e4007e;
+}
 .tab-icon {
   font-size: 18px;
   color: white;
@@ -72,15 +80,6 @@
   color: white;
   cursor: pointer;
   font-weight: 500;
-}
-.btn-one {
-  background-color: #e4007e;
-}
-.icon-two {
-  color: #e4007e;
-}
-.btn-two {
-  color: #e4007e;
 }
 
 /* ----search bar--- */

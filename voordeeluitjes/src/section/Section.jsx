@@ -9,10 +9,13 @@ import OurTips from "./OurTips/OurTips";
 import WhyChooseUs from "./WhyChooseUs/WhyChooseUs";
 import HelpingSection from "./HelpingSection/HelpingSection";
 
-const Section = () => {
+const Section = ({ HotelBtnSelect, SetHotelBtnSelected }) => {
   return (
     <div>
-      <Booking />
+      <Booking
+        HotelBtnSelect={HotelBtnSelect}
+        SetHotelBtnSelected={SetHotelBtnSelected}
+      />
       <HotelSection />
       <Featured />
       <PopularDestination />
