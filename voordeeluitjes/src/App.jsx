@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Header from "./header/Header";
-import Section from "./section/section";
+import Section from "./section/Section";
 import Footer from "./footer/footer";
 
 const App = () => {

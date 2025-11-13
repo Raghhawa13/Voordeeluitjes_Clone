@@ -85,6 +85,7 @@
 /* ----search bar--- */
 
 .search-bar {
+  margin-top: 1px;
   background-color: #fff;
   border-color: #ddd;
   border-radius: 0 4px 4px;
@@ -94,6 +95,9 @@
   padding: 0px 36px 0px 0px;
   margin-bottom: 10px;
   justify-items: flex-end;
+}
+.search-bar:focus-within {
+  border: 2px solid #e4007e;
 }
 
 .search-icon {
@@ -105,12 +109,16 @@
   border: none;
   font-size: 16px;
 }
+.search-input:focus {
+  outline: none;
+}
 
 /* --- Booking Options --- */
 
 .option-item {
   border: 1px solid #ddd;
   background-color: #fff;
+  cursor: pointer;
 }
 .option-item-one {
   height: 54px;
@@ -171,4 +179,72 @@
 }
 .map-link {
   color: white;
+}
+/* -------------------------------- */
+.option-item-one {
+  position: relative;
+}
+
+.react-datepicker {
+  position: absolute;
+  top: 100%;
+  z-index: 10;
+  border: none;
+}
+/* --- Number of Days Dropdown --- */
+.option-item-two {
+  position: relative;
+  cursor: pointer;
+}
+
+.days-dropdown {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.days-dropdown li {
+  padding: 10px 14px;
+  font-size: 15px;
+  color: #333;
+  transition: all 0.2s ease;
+}
+
+.days-dropdown li:hover {
+  background-color: #f5f5f5;
+  color: #e4007e;
+  cursor: pointer;
+}
+
+.days-dropdown li.active {
+  background-color: #e4007e;
+  color: white;
+  font-weight: 600;
+}
+.datepicker-container {
+  position: absolute;
+  top: 60px;
+  z-index: 1000;
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.datepicker-label {
+  text-align: center;
+  font-size: 14px;
+  color: #e4007e; /* pink for highlight */
+  font-weight: 500;
+  margin-top: 8px;
 }
